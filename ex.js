@@ -126,11 +126,35 @@
 //   }
 // }
 
-function printCharacters(str) {
-  console.log(str[0] + str[3] + str[5]);
-}
+// function printCharacters(str) {
+//   console.log(str[0] + str[3] + str[5]);
+// }
 
-function solve(str) {
-  printCharacters(str);
-}
-solve("hellohowudoing");
+// function solve(str) {
+//   printCharacters(str);
+// }
+// solve("hellohowudoing");
+
+// var nums = [1, 2, 3, 4, 5];
+// console.log(nums[2]);
+
+// var months = ["Jan", "Feb", "Dec", "Apr"];
+// months[2] = "Mar";
+// console.log(months);
+// let string = ["Monday", "Tuesday", "Wednesday", "Thursday"];
+// console.log(string[2])
+// console.log(string[3])
+
+// let numbers = [10, 20, 30, 40, 50, 60];
+// console.log(numbers.length)
+// var months = ["January", "February", "March", "April", "May", "June", "July"];
+// console.log(months.slice(0,6))
+// console.log(months.slice(1,5))
+
+// var a = 0;
+// while (a < 7) {
+//   console.log( a);
+//   a += 1;
+// }
+function runLoop(n) {}
+
