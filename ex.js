@@ -156,5 +156,26 @@
 //   console.log( a);
 //   a += 1;
 // }
-function runLoop(n) {}
+// function runLoop(n) {
+//   let a = 0;
 
+//   while (a < n) {
+ 
+//     console.log(a);
+//     a += 1;
+//   }
+// }
+// runLoop(10);
+// var a = 4;
+// var b = 1;
+// while (a != b) {
+//   console.log(b);
+//   b = b + 1; // can be written as b += 1; also
+// }
+
+var a = 1;
+var b = 4;
+while (a != b) {
+  console.log(b);
+  b = b + 1;
+}
