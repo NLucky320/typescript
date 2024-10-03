@@ -173,9 +173,67 @@
 //   b = b + 1; // can be written as b += 1; also
 // }
 
-var a = 1;
-var b = 4;
-while (a != b) {
-  console.log(b);
-  b = b + 1;
-}
+// var a = 1;
+// var b = 4;
+// while (a != b) {
+//   console.log(b);
+//   b = b + 1;
+// }
+
+// function printSquares() {
+//   for (let i = 1; i <= 5; i++) {
+//     console.log(i + " - " + i * i);
+//   }
+// }
+
+// printSquares();
+// function arithmeticOperations() {
+//   let num1 = 8;
+//   let num2 = 4;
+
+//   let addition = num1 + num2;
+//   let subtraction = num1 - num2;
+//   let multiplication = num1 * num2;
+//   let division = num1 / num2;
+
+//   console.log( addition);
+//   console.log(subtraction);
+//   console.log(
+//  multiplication
+//   );
+//   console.log(division);
+// }
+
+// arithmeticOperations();
+
+// let x = "55.56";
+// let y = 88;
+// console.log(x + y);
+
+// let x = "64";
+// let y = 8;
+// console.log(x / y);
+// console.log(x * y);
+// console.log(x - y);
+
+// let x = 1;
+// let y = 2.6;
+// let z = "2 + 3i";
+
+// console.log(typeof x);
+// console.log(typeof y);
+// console.log(typeof z);
+
+// let x = 10 == 9;
+// console.log(x);
+// let x = 214.7487;
+// let y = 21257448;
+// console.log(typeof x);
+// console.log(typeof y);
+
+// let x = Boolean("False");
+// console.log(x)
+
+let a = 30;
+let b = 10;
+console.log(a / b);
