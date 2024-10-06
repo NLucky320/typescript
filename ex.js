@@ -252,21 +252,29 @@
 
 // let speed = 5 * speed1 / 18
 // console.log(speed)
-A = "Hello!";
-B = 15;
-C = 20;
+// A = "Hello!";
+// B = 15;
+// C = 20;
 
-console.log(A + B + C);
+// console.log(A + B + C);
 
 
-console.log(C + B + A);
+// console.log(C + B + A);
 
-var number = -5;
+// var number = -5;
 
-if (number > 0) {
-  console.log("The number is positive.");
-} else if (number < 0) {
-  console.log("The number is negative.");
-} else {
-  console.log("The number is zero.");
+// if (number > 0) {
+//   console.log("The number is positive.");
+// } else if (number < 0) {
+//   console.log("The number is negative.");
+// } else {
+//   console.log("The number is zero.");
+// }
+
+const start = 10;
+const end = 20;
+for (let i = start; i <= end; i++){
+    if (i % 2 == 0) {
+        console.log(i)
+    }
 }
