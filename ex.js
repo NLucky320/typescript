@@ -160,7 +160,7 @@
 //   let a = 0;
 
 //   while (a < n) {
- 
+
 //     console.log(a);
 //     a += 1;
 //   }
@@ -234,6 +234,26 @@
 // let x = Boolean("False");
 // console.log(x)
 
-let a = 30;
-let b = 10;
-console.log(a / b);
+// let a = 30;
+// let b = 10;
+// console.log(a / b);
+
+// let temperature = 25.5;
+
+// console.log("Celsius -", temperature);
+// console.log("Kelvin -", temperature + 273);
+
+// let hour = 5;
+
+// console.log(5 * 60);
+// console.log(5*60*60)
+
+// let speed1 = 36;
+
+// let speed = 5 * speed1 / 18
+// console.log(speed)
+A = "Hello!";
+B = 15;
+C = 20;
+
+console.log(A + B + C);
