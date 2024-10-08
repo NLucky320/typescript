@@ -294,3 +294,8 @@ function greetings(name) {
 
 let greet = greetings("lucky")
 console.log(greet)
+
+function positiveSum(arr) {
+return arr.reduce((accumulator, currentValue)=>(currentValue>0?accumulator+currentValue:accumulator), 0)
+}
+console.log(positiveSum([]))
