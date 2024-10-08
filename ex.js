@@ -277,12 +277,20 @@
 //     if (i % 2 == 0) {
 //         console.log(i)
 //     }
-// } 
+// }
 
-const numbers = [10, 15, 20, 30];
-let totalSum = 0;
-for (let i = 0; i < numbers.length; i++) {
-  totalSum += numbers[i];
+//  ,
+
+// function difference(a, b) {
+//   return a.filter((item) => !b.includes(item));
+// }
+// let diff = difference([1], [1, 2])
+// console.log(diff)
+
+function greetings(name) {
+  
+  return `Hello, ${name} how are you doing today?`;
 }
 
-console.log(totalSum);
+let greet = greetings("lucky")
+console.log(greet)
